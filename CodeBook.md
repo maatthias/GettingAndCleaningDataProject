@@ -21,3 +21,15 @@
 - df_activity_test | var for activity testing table
 - dt_activity_train | var for activity training data table
 - dt_activity_test | var for activity testing data table
+- dt_feature | var to read features.txt into
+- dt | merged training and test data tables
+
+### Data
+- There are 3 logical sets of data.  The subject, activity and the actual data recorded.
+- These are identified by data tables above by convention dt_xxxxx.
+
+### Transformations (see code comment for specific executions of each step)
+- Step 1 is to merge these 3 logical sets
+- Step 2 is to extract only std dev and mean from the merged data set
+- Step 3 is to change the default activity identifiers (e.g., 1-6) to meaningful values (e.g., "WALKING")
+- Step 4 is to label data set variables (e.g., "fBodyAccMag") with descriptive variable names
