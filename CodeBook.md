@@ -5,5 +5,5 @@
 ### Variables
 trainURL | File Path for the training data
 testURL | File Path for the testing data
-df_train var for training table 
-df_test var for testing table
+df_train | var for training table 
+df_test | var for testing table
