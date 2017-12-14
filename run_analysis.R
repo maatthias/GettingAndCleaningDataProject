@@ -4,7 +4,7 @@
 library(data.table)
 
 #setwd
-setwd("C:/Users/msnyder/OneDrive - Rainforest Alliance/Mgmt/Training/Coursera/DataScience/Course3_GettingAndCleaningData/Week4/project")
+setwd("~Coursera/DataScience/Course3_GettingAndCleaningData/Week4/project")
 
 #set data set files URLs
 trainURL = "./UCI HAR Dataset/train/X_train.txt"
