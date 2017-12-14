@@ -5,20 +5,15 @@
 ### Variables
 - trainURL | File Path for the training data
 - testURL | File Path for the testing data
-- df_train | var for training table 
-- df_test | var for testing table
 - dt_train | var for training data table
 - dt_test | var for testing  data table
+- dt_traintest | var for r-combined training and test data
 - train_subjectURL | File Path for the subject training data
 - test_subjectURL | File Path for the subject testing data
-- df_subject_train | var for subject training table
-- df_subject_test | var for subject testing table
 - dt_subject_train | var for subject testing data table
 - dt_subject_test | var for subject testing data table
 - train_activityURL | File path for the training activity file
 - test_activityURL | File path for the testing activity file
-- df_activity_train | var for activity training table
-- df_activity_test | var for activity testing table
 - dt_activity_train | var for activity training data table
 - dt_activity_test | var for activity testing data table
 - dt_feature | var to read features.txt into
@@ -33,3 +28,4 @@
 - Step 2 is to extract only std dev and mean from the merged data set
 - Step 3 is to change the default activity identifiers (e.g., 1-6) to meaningful values (e.g., "WALKING")
 - Step 4 is to label data set variables (e.g., "fBodyAccMag") with descriptive variable names
+- Step 5 creates a tidy data set with measurements averaged by subject, activity.
